@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  padding-top: 100px;
+}
+
+form .form-group {
+  margin: 20px;
+  min-width: 300px;
+}
+
+form .form-group div {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+form .form-group label {
+  margin: 0px 5px 0px 0px;
+
+}
+
+.color-lump.red{
+  width: 15px;
+  height: 15px;
+  background-color: red;
+}
+
+.color-lump.green{
+  width: 15px;
+  height: 15px;
+  background-color: green;
+}
+
+.color-lump.blue{
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+}
+
+.form-group.Hex {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#result_color {
+  width: 60px;
+  height: 60px;
+  background-color: black; /* default color */
+}
